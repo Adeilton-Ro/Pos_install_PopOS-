@@ -62,7 +62,7 @@ echo "--------------------------------"
 #instalando pacotes snaps
 sudo apt install snapd -y
 #instalando VS CODE por snap
-sudo snap install code -y
+sudo snap install code --classic
 #instalando Wine
 sudo apt install --install-recommends winehq-stable -y
 #instalando lutris
