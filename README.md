@@ -4,7 +4,7 @@ no script são instalados os programas:
 snap,
 VScode(snap),
 compilador C#,
-GIT- Instalou,
+GIT,
 compilador C++,
 PHP,
 Mysql,
