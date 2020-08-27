@@ -81,6 +81,8 @@ sudo apt install g++ -y
 sudo apt install haguichi -y
 #instalando qbitorrent
 sudo apt-get install qbittorrent -y
+#instalando Java
+sudo apt install default-jre
 #instalando LAMP
 sudo apt-get install lamp-server^ -y
 #instalando phpadmin
