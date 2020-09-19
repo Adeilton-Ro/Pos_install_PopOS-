@@ -37,7 +37,6 @@ sudo dpkg -i *.deb
 cd ~
 
 # Removendo Diretorio "TempFile"
-rm -fr ~/Downloads/TempFile
 
 # Adicionando repositorio do Haguichi
 sudo add-apt-repository -y ppa:webupd8team/haguichi -y
@@ -91,6 +90,14 @@ sudo apt-get install lamp-server^ -y
 # instalando phpadmin
 sudo apt-get install phpmyadmin -y
 
+cd ~/Downloads/TempFile
+
+git clone https://github.com/scanmem/scanmem.git
+./autogen.sh
+./configure --prefix=/usr --enable-gui && make
+sudo make install
+
+rm -fr ~/Downloads/TempFile
 # Reboot na maquina
 printf "%s" 'Seu computador será reiniciado em '
 for i in {5..1}
